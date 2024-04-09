@@ -1,31 +1,27 @@
-# Typst CV Template
+# Typst CV Chinese Template
 
-A simple CV template for [typst.app](https://typst.app).
+这是一个适用于 [typst.app](https://typst.app) 的简历模板。Fork 自 [迟先生的简历模板](https://github.com/skyzh/chicv/blob/master/cv.typ)。
 
-## How To Use
+## 如何使用
 
-### Quick Start
+### 快速开始
 
-Create a project on [typst.app](https://typst.app), copy paste everything in https://github.com/skyzh/chicv/blob/master/cv.typ, and all done!
+在 [typst.app](https://typst.app) 创建一个项目，复制粘贴 https://github.com/MondayCha/chinese-cv/blob/master/cv.typ 中的所有内容，完成！
 
-### Customize your CV
+### 字体安装
 
-To change the text size, you can uncomment the lines in `cv.typ` and set to your choice. (Recommended text size for CV is from 10pt to 12pt)
+此模板使用 Noto Serif SC 字体，请前往 [Noto Serif Simplified Chinese](https://fonts.google.com/noto/specimen/Noto+Serif+SC) 下载。
 
-You can also change the page margin in `cv.typ` to fit in more contents in a single page. The margin default is set to `(x: 0.9cm, y: 1.3cm)`.
+### 修改主题颜色
 
-Don't forget to include `#chiline()` every time you open a new section, this line acts as a perfect split.
+替换代码中的 `fill: rgb(0, 91, 172)` 片段。
 
-For basic typst syntax, check this template as a reference, it's super easy to understand and use!
+## 演示
 
-For advanced topics, please refer to [official reference](https://typst.app/docs/reference/) by typst.
+### 示例简历
 
-## Showcases
+![预览](cv.png)
 
-### Sample CV
+## TODOList
 
-![Preview](cv.png)
-
-### Chi's CV
-
-[cv.pdf](https://skyzh.github.io/files/cv.pdf)
+- [ ] 添加图标
